@@ -1,0 +1,106 @@
+
+@font-face {
+    font-family: 'Crazy';
+    src: url(/fonts/Crazy.otf);
+}
+@font-face {
+    font-family: 'Headfont';
+    src: url(/fonts/Headfont.ttf);
+}
+
+@font-face {
+    font-family: 'Stefan';
+    src: url(/fonts/Stefan.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(/fonts/OpenSans.ttf)
+}
+
+html, body {
+    margin: 0px;
+}
+
+h1 { 
+    height: 330px; width: 683px;
+}
+
+#head_info {
+    display: flex;
+    flex-direction: row;
+    
+}
+#text_header {
+    width: auto;
+    font-size: 30px;
+    position: relative;
+    right: 500px;
+    top: 400px;
+    text-align: right;
+    font-family: 'Headfont';
+}
+
+.Subaru {
+    white-space: wrap;
+}
+
+#Contacts {
+    display: flex;
+    flex-direction: row;
+}
+
+#person {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid rgb(160, 159, 159);
+    border-bottom: 1px solid gray;
+    margin-top: 70px;
+    margin-left: 90px;
+    height: 67px;
+
+}
+
+#person a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Stefan';
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#person p {
+    position: relative;
+    top: 25px;
+    right: 150px;
+}
+
+#Stefan {
+    position: relative;
+    left: 500px;
+    bottom: 150px;
+}
+
+#car_sec2 {
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+
+#div_2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#text_sec2 {
+    position: relative;
+    left: 150px;
+
+}
+
+#text_sec2 p {
+    width: 431px;
+    height: 529px;
+    font-family: 'OpenSans';
+    font-size: 20px;
+}
